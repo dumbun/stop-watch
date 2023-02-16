@@ -1,0 +1,107 @@
+body {
+    background-color: #8EA7E9;
+    text-align: center;
+
+}
+
+
+#container {
+    font-family: 'Pacifico', cursive;
+    background-color: #fff;
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+p {
+    position: relative;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    font-size: 2.7rem;
+
+}
+
+.milliseconds {
+    color: #7286D3;
+}
+
+.Start-buttom {
+    font-family: 'Montserrat', sans-serif;
+    color: #8EA7E9;
+    /* border: none; */
+    border-style: solid;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 2rem;
+    position: fixed;
+    left: 45%;
+    top: 63%;
+    transform: translate(-150%, -50%);
+    transition: 1s;
+    text-align: center;
+}
+
+.Start-buttom:hover {
+    background-color: #09af00;
+    color: #fff;
+    border: line;
+    border-color: #fff;
+    border-width: 5px;
+}
+
+.stop-buttom {
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #8EA7E9;
+    /* border: none; */
+    border-style: solid;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 2rem;
+    position: fixed;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.stop-buttom:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border: line;
+    border-color: #fff;
+    border-width: 5px;
+}
+
+.reset-buttom {
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #8EA7E9;
+    /* border: none; */
+    border-style: solid;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 2rem;
+    position: fixed;
+    left: 55%;
+    top: 63%;
+    transform: translate(45%, -50%);
+    transition: 1s;
+}
+
+.reset-buttom:hover {
+    background-color: #ddb100;
+    color: #fff;
+    border: line;
+    border-color: #fff;
+    border-width: 3px;
+}
